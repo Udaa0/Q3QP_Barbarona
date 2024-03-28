@@ -1,0 +1,107 @@
+body{
+    background-image: url('back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container1{
+    background-color: #9C89B8;
+    border-radius: 6px;
+    padding: 1px;
+    margin-left: 450px;
+    margin-right: 450px;
+    
+}
+
+.container1 h2{
+    text-align: center;
+    color: #fff;
+}
+
+.container1 #coinSelect{
+    margin-left: 144px;
+    padding: 6px;
+}
+
+#toss {
+    padding: 6px;
+}
+
+.cont2 {
+    background-color: #F0A6CA;
+    border-radius: 6px;
+    margin-left: 452px;
+    margin-right: 452px;
+}
+
+#resetBtn{
+    margin-left: 185px;
+    margin-top: 10px;
+    padding: 6px;
+}
+
+.gamestatus{
+    margin-left: 280px;
+    margin-top: 30px;
+}
+
+.gamestatus .health-status{
+    background-color: #EFC3E6;
+    border-radius: 6px;
+    padding: 9px;
+    margin-left: 157px;
+    margin-right: 450px;
+}
+
+.gamestatus .health-status h3{
+    background-color: #F0E6EF;
+    border-radius: 6px;
+    padding-right: 220px;
+    padding-top: 6px;
+    padding-left: 18px;
+    margin-right: 590px;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.gamestatus .health-status p{
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding-right: 220px;
+    padding-top: 12px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    margin-right: 590px;
+    margin-left: 90px;
+}
+
+.opponentPic {
+    display: flex;
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+#vo {
+    text-align: center;
+    color: #fff;
+    margin-top: 1px;
+}
+
+.gamestatus .actions #actionMessage{
+    margin-top: 30px;
+    margin-left: 1px;
+    color: #fff;
+}
+
+.gamestatus .actions{
+    margin-left: 310px;
+}
+
+.gamestatus .actions #attackBtn{
+    padding: 18px; 
+}
+
+.gamestatus .actions #defendBtn{
+    padding: 18px; 
+}
